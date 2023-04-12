@@ -7439,6 +7439,7 @@ aside .profile-img-wrapper {
     border: 3px solid #0067f6;
   }
 
+
 aside .profile-name {
   font-size: 18px;
   font-weight: 600;
@@ -7473,8 +7474,7 @@ aside .social-links {
 aside .widget {
   margin-bottom: 28px;
   margin-left: 28px;
-   
-  
+ 
 }
   aside .widget .widget-title {
     font-size: 14px;
@@ -7636,7 +7636,13 @@ aside {
   @media (max-width: 767px) {
     aside {
       width: 100%;
-      padding-right: 0; } }
+      padding-right: 0; 
+    }
+    aside .test{
+      width: 100%;
+      padding-right: 0;
+      margin-left : -16px;
+       }  }
 
 main {
   flex-grow: 10;
